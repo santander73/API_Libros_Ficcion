@@ -1,0 +1,48 @@
+### Variable para la URL Base de la API
+@baseUrl = http://localhost:3000/api/libros
+
+### 1. GET: Obtener los primeros 10 libros
+GET {{baseUrl}}
+
+###
+
+### 2. GET: Obtener un libro específico por su ID (Ejemplo: ID 1)
+GET {{baseUrl}}/20
+
+###
+
+### 3. GET: Intentar buscar un libro que NO existe (Prueba de control de errores)
+GET {{baseUrl}}/999
+
+###
+
+### 4. POST: Agregar un nuevo libro de Ciencia Ficción (Cumple con los 5 campos mínimos de la rúbrica)
+POST {{baseUrl}}
+Content-Type: application/json
+
+{
+  "titulo": "Fahrenheit 451",
+  "autor": "Ray Bradbury",
+  "anio": 1953,
+  "genero": "Distopía / Ciencia Ficción",
+  "paginas": 256
+}
+
+###
+
+### 5. PUT: Modificar un libro existente por su ID (Ejemplo: Actualizar el ID 1)
+PUT {{baseUrl}}/3
+Content-Type: application/json
+
+{
+  "titulo": "Dune (Edición Revisada)",
+  "autor": "Frank Herbert",
+  "anio": 1965,
+  "genero": "Ópera Espacial / Sci-Fi",
+  "paginas": 700
+}
+
+###
+
+### 6. DELETE: Eliminar un libro por su ID (Ejemplo: Eliminar el ID 3)
+DELETE {{baseUrl}}/3
