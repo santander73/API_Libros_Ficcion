@@ -2,6 +2,7 @@ import express from 'express';
 const router = express.Router();
 // Importamos la lógica desde nuestro servicio
 import { leerDatos, guardarDatos } from '../services/libros.service.js';
+import { validarCamposLibro } from '../middlewares/validarLibro.js';
 
 
 // 1. GET: Obtener todos (limitado a 10)
@@ -35,7 +36,7 @@ router.get('/:id', (req, res) => {
 });
 
 // 3. POST: Agregar nuevo
-router.post('/', (req, res) => {
+router.post('/', validarCamposLibro, (req, res) => {
     try {
         const libros = leerDatos();
         const nuevoLibro = req.body;
@@ -51,7 +52,7 @@ router.post('/', (req, res) => {
 });
 
 // 4. PUT: Modificar existente
-router.put('/:id', (req, res) => {
+router.put('/:id', validarCamposLibro, (req, res) => {
     try {
         const libros = leerDatos();
         const idParam = parseInt(req.params.id);

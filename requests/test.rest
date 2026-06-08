@@ -21,11 +21,11 @@ POST {{baseUrl}}
 Content-Type: application/json
 
 {
-  "titulo": "Fahrenheit 451",
-  "autor": "Ray Bradbury",
-  "anio": 1953,
-  "genero": "Distopía / Ciencia Ficción",
-  "paginas": 256
+  "titulo": "2001: Una odisea del espacio",
+  "autor": "Arthur C. Clarke",
+  "anio": 1968,
+  "subgenero": "Ciencia Ficción Dura",
+  "paginas": 224
 }
 
 ###
@@ -38,11 +38,11 @@ Content-Type: application/json
   "titulo": "Dune (Edición Revisada)",
   "autor": "Frank Herbert",
   "anio": 1965,
-  "genero": "Ópera Espacial / Sci-Fi",
+  "subgenero": "Ciencia Ficción Dura",
   "paginas": 700
 }
 
 ###
 
 ### 6. DELETE: Eliminar un libro por su ID (Ejemplo: Eliminar el ID 3)
-DELETE {{baseUrl}}/3
+DELETE {{baseUrl}}/20
