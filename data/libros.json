@@ -1,162 +1,170 @@
 [
-    {
-        "id": 1,
-        "titulo": "1984",
-        "autor": "George Orwell",
-        "anio": 1949,
-        "subgenero": "Distopía",
-        "paginas": 328
-    },
-    {
-        "id": 2,
-        "titulo": "Fundación",
-        "autor": "Isaac Asimov",
-        "anio": 1951,
-        "subgenero": "Ciencia Ficción Dura",
-        "paginas": 256
-    },
-    {
-        "id": 3,
-        "titulo": "Dune",
-        "autor": "Frank Herbert",
-        "anio": 1965,
-        "subgenero": "Space Opera",
-        "paginas": 704
-    },
-    {
-        "id": 4,
-        "titulo": "Fahrenheit 451",
-        "autor": "Ray Bradbury",
-        "anio": 1953,
-        "subgenero": "Distopía",
-        "paginas": 176
-    },
-    {
-        "id": 5,
-        "titulo": "Un mundo feliz",
-        "autor": "Aldous Huxley",
-        "anio": 1932,
-        "subgenero": "Distopía",
-        "paginas": 256
-    },
-    {
-        "id": 6,
-        "titulo": "Neuromante",
-        "autor": "William Gibson",
-        "anio": 1984,
-        "subgenero": "Cyberpunk",
-        "paginas": 271
-    },
-    {
-        "id": 7,
-        "titulo": "El juego de Ender",
-        "autor": "Orson Scott Card",
-        "anio": 1985,
-        "subgenero": "Ciencia Ficción Militar",
-        "paginas": 324
-    },
-    {
-        "id": 8,
-        "titulo": "La mano izquierda de la oscuridad",
-        "autor": "Ursula K. Le Guin",
-        "anio": 1969,
-        "subgenero": "Ciencia Ficción Social",
-        "paginas": 304
-    },
-    {
-        "id": 9,
-        "titulo": "Snow Crash",
-        "autor": "Neal Stephenson",
-        "anio": 1992,
-        "subgenero": "Cyberpunk",
-        "paginas": 480
-    },
-    {
-        "id": 10,
-        "titulo": "El fin de la eternidad",
-        "autor": "Isaac Asimov",
-        "anio": 1955,
-        "subgenero": "Ciencia Ficción Dura",
-        "paginas": 176
-    },
-    {
-        "id": 11,
-        "titulo": "La guerra de los mundos",
-        "autor": "H.G. Wells",
-        "anio": 1898,
-        "subgenero": "Ciencia Ficción Clásica",
-        "paginas": 192
-    },
-    {
-        "id": 12,
-        "titulo": "El marciano",
-        "autor": "Andy Weir",
-        "anio": 2011,
-        "subgenero": "Ciencia Ficción Dura",
-        "paginas": 369
-    },
-    {
-        "id": 13,
-        "titulo": "La carretera",
-        "autor": "Cormac McCarthy",
-        "anio": 2006,
-        "subgenero": "Distopía Postapocalíptica",
-        "paginas": 287
-    },
-    {
-        "id": 14,
-        "titulo": "El nombre del viento",
-        "autor": "Patrick Rothfuss",
-        "anio": 2007,
-        "subgenero": "Fantasía Épica",
-        "paginas": 662
-    },
-    {
-        "id": 15,
-        "titulo": "El temor de un hombre sabio",
-        "autor": "Patrick Rothfuss",
-        "anio": 2011,
-        "subgenero": "Fantasía Épica",
-        "paginas": 994
-    },
-    {
-        "id": 16,
-        "titulo": "El archivo de las tormentas",
-        "autor": "Brandon Sanderson",
-        "anio": 2010,
-        "subgenero": "Fantasía Épica",
-        "paginas": 1007
-    },
-    {
-        "id": 17,
-        "titulo": "El aliento de los dioses",
-        "autor": "Brandon Sanderson",
-        "anio": 2017,
-        "subgenero": "Fantasía Épica",
-        "paginas": 672
-    },
-    {
-        "id": 18,
-        "titulo": "Elantris",
-        "autor": "Brandon Sanderson",
-        "anio": 2005,
-        "subgenero": "Fantasía Épica",
-        "paginas": 592
-    },
-    {
-        "id": 19,
-        "titulo": "Mistborn: El imperio final",
-        "autor": "Brandon Sanderson",
-        "anio": 2006,
-        "subgenero": "Fantasía Épica",
-        "paginas": 541
-    },
-    {
-        "id": 20,
-        "titulo": "Mistborn: El pozo de la ascensión",
-        "autor": "Brandon Sanderson",
-        "anio": 2007,
-        "subgenero": "Fantasía Épica",
-        "paginas": 590
-    }
+  {
+    "id": 1,
+    "titulo": "1984",
+    "autor": "George Orwell",
+    "anio": 1949,
+    "subgenero": "Distopía",
+    "paginas": 328
+  },
+  {
+    "id": 2,
+    "titulo": "Fundación",
+    "autor": "Isaac Asimov",
+    "anio": 1951,
+    "subgenero": "Ciencia Ficción Dura",
+    "paginas": 256
+  },
+  {
+    "id": 3,
+    "titulo": "Dune (Edición Revisada)",
+    "autor": "Frank Herbert",
+    "anio": 1965,
+    "subgenero": "Ciencia Ficción Dura",
+    "paginas": 700
+  },
+  {
+    "id": 4,
+    "titulo": "Fahrenheit 451",
+    "autor": "Ray Bradbury",
+    "anio": 1953,
+    "subgenero": "Distopía",
+    "paginas": 176
+  },
+  {
+    "id": 5,
+    "titulo": "Un mundo feliz",
+    "autor": "Aldous Huxley",
+    "anio": 1932,
+    "subgenero": "Distopía",
+    "paginas": 256
+  },
+  {
+    "id": 6,
+    "titulo": "Neuromante",
+    "autor": "William Gibson",
+    "anio": 1984,
+    "subgenero": "Cyberpunk",
+    "paginas": 271
+  },
+  {
+    "id": 7,
+    "titulo": "El juego de Ender",
+    "autor": "Orson Scott Card",
+    "anio": 1985,
+    "subgenero": "Ciencia Ficción Militar",
+    "paginas": 324
+  },
+  {
+    "id": 8,
+    "titulo": "La mano izquierda de la oscuridad",
+    "autor": "Ursula K. Le Guin",
+    "anio": 1969,
+    "subgenero": "Ciencia Ficción Social",
+    "paginas": 304
+  },
+  {
+    "id": 9,
+    "titulo": "Snow Crash",
+    "autor": "Neal Stephenson",
+    "anio": 1992,
+    "subgenero": "Cyberpunk",
+    "paginas": 480
+  },
+  {
+    "id": 10,
+    "titulo": "El fin de la eternidad",
+    "autor": "Isaac Asimov",
+    "anio": 1955,
+    "subgenero": "Ciencia Ficción Dura",
+    "paginas": 176
+  },
+  {
+    "id": 11,
+    "titulo": "La guerra de los mundos",
+    "autor": "H.G. Wells",
+    "anio": 1898,
+    "subgenero": "Ciencia Ficción Clásica",
+    "paginas": 192
+  },
+  {
+    "id": 12,
+    "titulo": "El marciano",
+    "autor": "Andy Weir",
+    "anio": 2011,
+    "subgenero": "Ciencia Ficción Dura",
+    "paginas": 369
+  },
+  {
+    "id": 13,
+    "titulo": "La carretera",
+    "autor": "Cormac McCarthy",
+    "anio": 2006,
+    "subgenero": "Distopía Postapocalíptica",
+    "paginas": 287
+  },
+  {
+    "id": 14,
+    "titulo": "El nombre del viento",
+    "autor": "Patrick Rothfuss",
+    "anio": 2007,
+    "subgenero": "Fantasía Épica",
+    "paginas": 662
+  },
+  {
+    "id": 15,
+    "titulo": "El temor de un hombre sabio",
+    "autor": "Patrick Rothfuss",
+    "anio": 2011,
+    "subgenero": "Fantasía Épica",
+    "paginas": 994
+  },
+  {
+    "id": 16,
+    "titulo": "El archivo de las tormentas",
+    "autor": "Brandon Sanderson",
+    "anio": 2010,
+    "subgenero": "Fantasía Épica",
+    "paginas": 1007
+  },
+  {
+    "id": 17,
+    "titulo": "El aliento de los dioses",
+    "autor": "Brandon Sanderson",
+    "anio": 2017,
+    "subgenero": "Fantasía Épica",
+    "paginas": 672
+  },
+  {
+    "id": 18,
+    "titulo": "Elantris",
+    "autor": "Brandon Sanderson",
+    "anio": 2005,
+    "subgenero": "Fantasía Épica",
+    "paginas": 592
+  },
+  {
+    "id": 19,
+    "titulo": "Mistborn: El imperio final",
+    "autor": "Brandon Sanderson",
+    "anio": 2006,
+    "subgenero": "Fantasía Épica",
+    "paginas": 541
+  },
+  {
+    "id": 20,
+    "titulo": "Mistborn: El pozo de la ascensión",
+    "autor": "Brandon Sanderson",
+    "anio": 2007,
+    "subgenero": "Fantasía Épica",
+    "paginas": 590
+  },
+  {
+    "titulo": "2001: Una odisea del espacio",
+    "autor": "Arthur C. Clarke",
+    "anio": 1968,
+    "subgenero": "Ciencia Ficción Dura",
+    "paginas": 224,
+    "id": 21
+  }
 ]

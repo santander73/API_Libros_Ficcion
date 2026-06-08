@@ -45,4 +45,4 @@ Content-Type: application/json
 ###
 
 ### 6. DELETE: Eliminar un libro por su ID (Ejemplo: Eliminar el ID 3)
-DELETE {{baseUrl}}/20
+DELETE {{baseUrl}}/22
